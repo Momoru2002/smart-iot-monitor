@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart IoT Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌐 Smart IoT Monitoring Dashboard</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>🌡 Temperature</h2>
+            <p id="temp">--</p>
+        </div>
+
+        <div class="card">
+            <h2>💧 Humidity</h2>
+            <p id="hum">--</p>
+        </div>
+
+        <div class="card">
+            <h2>⚡ Energy</h2>
+            <p id="energy">--</p>
+        </div>
+
+        <div class="card">
+            <h2>🌫 Air Quality</h2>
+            <p id="air">--</p>
+        </div>
+
+    </div>
+
+    <div class="chart-box">
+        <canvas id="iotChart"></canvas>
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
